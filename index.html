@@ -4,6 +4,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- favicon using link tag -->
+    <link rel="image" type="favicon" src="/images/programming.svg">
+
     <title>Component Library</title>
 
     <!-- Third way of doing CSS: external link -->
@@ -44,7 +48,7 @@
     <a href="/" class="link link-primary">Primary Link</a>
     <a href="/" class="link link-secondary">Secondary Link</a>
 
-    <br><br>
+    <br>
 
     <hr>
 
@@ -52,15 +56,17 @@
 
     <h3>unordered lists</h3>
 
-    <ul>
-        <li>1. item one</li>
-        <li>2. Item two</li>
-        <li>3. Item three</li>
+    <p>This list will not have bullet</p>
+
+    <ul class="list-non-bullet">
+        <li class="list-item-inline">Item one</li>
+        <li class="list-item-inline">Item two</li>
+        <li class="list-item-inline">Item three</li>
     </ul>
 
     <h3>unordered inline list</h3>
 
-    <ul>
+    <ul class="list-non-bullet">
         <li>Inline Item One0</li>
         <li>Inline Item Two</li>
         <li>Inline Item three</li>
@@ -70,7 +76,7 @@
 
     <h3>Ordered list</h3>
 
-    <ol>
+    <ol reversed>
         <li>Item One</li>
         <li>Item two</li>
         <li>Item three</li>
@@ -80,17 +86,17 @@
 
     <h2>@nav</h2>
 
-    <nav>
-        <div>iAmBrand</div>
-        <ul>
-            <li>
-                <a href="/">home</a>
+    <nav class="navigation">
+        <div class="nav-brand">iAmBrand</div>
+        <ul class="list-non-bullet nav-pills">
+            <li class="list-item-inline">
+                <a class="link link-active"  href="/">home</a>
             </li>
-            <li>
-                <a href="/">products</a>
+            <li class="list-item-inline">
+                <a class="link link-active" href="/">products</a>
             </li>
-            <li>
-                <a href="/">about</a>
+            <li class="list-item-inline">
+                <a class="link link-active" href="/">about</a>
             </li>
         </ul>
     </nav>
@@ -99,9 +105,9 @@
 
     <h2>header</h2>
 
-    <header>
-        <img src="/images/programming.svg">
-        <h1>heading inside hero</h1>
+    <header class="hero">
+        <img class="hero-image" src="/images/programming.svg">
+        <h1 class="hero-heading">heading inside <span style="color: var(--primary-color)">hero</span></h1>
     </header>
 
     <hr>
