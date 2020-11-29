@@ -3,10 +3,13 @@
 :root {
     --primary-color: #F87171;
     --dark-grey: #9CA3AF;
+    --light-gray: #D1D5DB;
 }
 
 body{
     font-family: 'Montserrat', sans-serif;
+    margin:0px;
+    padding:0rem 25rem;
 }
 
 hr{
@@ -96,6 +99,20 @@ hr{
     padding-top:1rem;
     color: var(--dark-grey);
 }
+
+
+/* section */
+.section h3{
+    text-align:center;
+    background: red;
+}
+
+.section-ow {
+    background: var(--light-gray);
+    border-bottom-left-radius: 2rem;
+    padding: 0rem 0rem 1rem 1rem;
+}
+
 
 
 
