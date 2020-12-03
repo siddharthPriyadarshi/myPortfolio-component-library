@@ -2,13 +2,15 @@
 
 :root {
     --primary-color: #F87171;
+    --light-black: #1F2937;
     --dark-grey: #9CA3AF;
     --light-gray: #FEF2F2;
 }
 
 body{
     font-family: 'Montserrat', sans-serif;
-    margin: 0rem 30rem;
+    margin: 0rem 25rem;
+    padding: 0.5rem;
     
 }
 
@@ -117,6 +119,23 @@ hr{
     font-size: 2rem;
 }
 
+.section-list li p {
+    font-style:italic;
+    color: var(--dark-grey);
+    padding-bottom: 3rem;
+}
+
+.section-list li a {
+    color:var(--light-black);
+    text-align:left;
+
+}
+
+
+.section .section-list li {
+    font-size:1.5rem;
+}
+
 
 p{
     font-size:1.2rem;
@@ -142,3 +161,47 @@ p{
     padding-inline-start: 0px;
     text-align: right;
 }
+
+
+/* Blog */
+.blog-heading p{
+    font-size: smaller;
+    text-align: end;
+    font-style: italic;
+    color:#9CA3AF;
+    padding-right:2rem;
+}
+
+.blog-heading h1{
+    text-align:center;
+    padding-top: 2rem;
+}
+
+.blog-content {
+    padding: 1rem 1rem;
+    background: var(--light-gray);
+    text-align: justify;
+    border-radius: 1rem;
+}
+
+
+
+/* blog 5: Devils : behind every heroes */
+.devil-image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%; 
+  height: 50%;
+  padding-bottom: 2rem;
+  object-position:0px 30px;
+}
+
+/* Blog 4: Stock marketL beginner */
+.stock-image {
+    display: block;
+    margin: auto;
+    padding: 2rem;
+    width: 50%;
+}
+
