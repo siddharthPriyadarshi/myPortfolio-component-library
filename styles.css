@@ -19,6 +19,10 @@ a{
     color:white;
 }
 
+div{
+    display: block;
+}
+
 hr{
     margin: 2rem 0rem;
 }
