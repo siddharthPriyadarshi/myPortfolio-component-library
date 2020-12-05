@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
 
 :root {
     --primary-color: #F87171;
@@ -9,9 +9,26 @@
 
 body{
     font-family: 'Montserrat', sans-serif;
-    margin: 0px;
+    margin: auto;
     padding: 0px;
-    
+    width:50%;
+    height: auto;
+    line-height: 24px;   
+}
+
+section{
+    display: block;
+}
+
+.body-section{
+    padding: 1rem;
+
+}
+
+.markdown-body{
+    padding: 1rem;
+    max-width:800px;
+    margin: auto;
 }
 
 a{
@@ -29,7 +46,7 @@ hr{
 
 /* container */
 .container {
-    padding: 0rem 1rem;
+padding: 0rem 1rem;
 
 }
 
@@ -135,10 +152,10 @@ hr{
 
 }
 
-
+ 
 .section .section-list li {
-    font-size:1.5rem;
-}
+     font-size:1.5rem;
+} 
 
 
 p{
