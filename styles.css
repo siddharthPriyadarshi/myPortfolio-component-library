@@ -9,11 +9,10 @@
 
 body{
     font-family: 'Montserrat', sans-serif;
-    margin: auto;
-    padding: 0%;
-    width:50%;
+    margin: auto; 
     height: auto;
-    line-height: 24px;   
+    line-height: 24px;
+    padding: 2rem;   
 }
 
 section{
@@ -21,14 +20,14 @@ section{
 }
 
 .body-section{
+    display: block;
     padding: 1rem;
-
 }
 
 .markdown-body{
-    padding: 1rem;
-    max-width:800px;
+    display: block;
     margin: auto;
+    max-width: 800px;
 }
 
 a{
