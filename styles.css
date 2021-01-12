@@ -10,9 +10,8 @@
 body{
     font-family: 'Montserrat', sans-serif;
     margin: auto; 
-    height: auto;
-    line-height: 24px;
-    padding: 2rem;   
+    /* height: auto; */
+    line-height: 24px;  
 }
 
 section{
@@ -20,7 +19,6 @@ section{
 }
 
 .body-section{
-    display: block;
     padding: 1rem;
 }
 
